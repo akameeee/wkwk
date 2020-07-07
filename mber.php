@@ -97,14 +97,14 @@ echo "$no --> $a\n";
 }
 
 echo "=========================\n";
-echo "Auto Follow Tokopedia\n";
-echo "Created by @ikballnh\n";
+echo "Mber\n";
+echo "Mber\n";
 echo "=========================\n";
 echo "Masukan username: ";
 $user = trim(fgets(STDIN));
-$abc1 = getid($user, 9000);
-$abc2 = getid($user, 9001);
-$abc3 = getid($user, 9002);
+$abc1 = getid($user, 1);
+$abc2 = getid($user, 2);
+$abc3 = getid($user, 3);
 
 echo "Nama Store: $abc1\n";
 echo "Folowers: $abc3\n";
@@ -112,7 +112,7 @@ echo "Folowers: $abc3\n";
 
 
 
-$data=file_get_contents("dbtkp.txt");
+$data=file_get_contents("mber.txt");
 $ex = explode("\n", str_replace("\r", "", $data));
 $count = count($ex);
 if ($abc2 == FALSE) {
